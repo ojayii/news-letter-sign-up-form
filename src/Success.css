@@ -1,0 +1,82 @@
+.success-main {
+    min-height: 100vh;
+    padding: 1.5rem 7%;
+    position: relative;
+}
+
+.success-main>img {
+    width: 3.5rem;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.success-main>h1 {
+    font-size: 2.3rem;
+    margin-bottom: 1.2rem;
+}
+
+.success-main p {
+    line-height: 1.3;
+    font-weight: 400;
+}
+
+.success-main>p span {
+    font-weight: 600;
+}
+
+.success-main input[type="button"] {
+    width: 86%;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    border: none;
+    font-size: 0.9rem;
+    color: white;
+    background-color: hsl(235, 18%, 26%);
+    position: absolute;
+    bottom: 2rem;
+}
+
+.success-main input[type="button"]:hover {
+    box-shadow: 0 0.8rem 2rem hsl(4, 100%, 67%);
+    background-color: hsl(4, 100%, 67%);
+  }
+
+@media (min-width: 64rem) {
+    
+    .success-app {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .success-main {
+        width: 50%;
+        max-width: 30rem;
+        min-height: auto;
+        border-radius: 2rem;
+        padding: clamp(1rem, 5.5vw, 3.5rem);
+    }
+
+    .success-main h1 {
+        font-size: clamp(1rem, 4.6vw, 3rem);
+    }
+
+    .success-main p {
+        font-weight: 500;
+    }
+
+    .success-main p span {
+        font-weight: 700;
+    }
+
+    .success-main input[type="button"] {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0.4rem;
+        font-size: 0.9rem;
+        position: relative;
+        margin-top: 2rem;
+        bottom: 0;
+    }
+}

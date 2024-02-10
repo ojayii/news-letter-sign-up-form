@@ -1,0 +1,159 @@
+.App {
+  /* text-align: center; */
+  min-height: 100vh;
+}
+
+
+.regular-main {
+
+}
+
+.illustration {
+  /* background: url("../public/images/illustration-sign-up-mobile.svg"); */
+  width: 100%;
+}
+
+.illustration img {
+  width: 100%;
+  height: auto;
+}
+
+.illustration img:nth-child(2) {
+  display: none;
+}
+
+.main-content {
+padding: 2rem 7%;
+}
+
+.main-content h1 {
+  font-size: 2.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.main-content p {
+  font-size: 0.88rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.main-content > p {
+  margin-bottom: 1.5rem;
+}
+
+.specs {
+  display: flex;
+  gap: 6%;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.specs img {
+  
+}
+
+.specs p {
+  
+}
+
+.main-content form {
+  position: relative;
+}
+
+.main-content form .error-msg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: hsl(4, 100%, 67%);
+}
+
+.main-content form label {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.main-content form input[type="email"] {
+  width: 100%;
+  margin-top: 0.3rem;
+  margin-bottom: 1.3rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: 1px solid black;
+  font-size: 0.9rem;
+}
+
+.main-content form input[type="email"]:hover {
+  border: 1px solid hsl(4, 100%, 67%);
+}
+
+.main-content form input[type="submit"] {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: none;
+  font-size: 0.9rem;
+  color: white;
+  background-color: hsl(235, 18%, 26%);
+}
+
+.main-content form input[type="submit"]:hover {
+  box-shadow: 0 0.8rem 2rem hsl(4, 100%, 67%);
+  background-color: hsl(4, 100%, 67%);
+}
+
+@media (min-width: 64rem) {
+
+  .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 2rem;
+  }
+
+  .regular-main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: auto;
+    max-width: 50rem;
+    /* height: auto; */
+    /* margin: auto auto; */
+    border-radius: 2rem;
+    padding: 1rem;
+  }
+
+  .illustration, .main-content {
+    width: 50%;
+    height: 100%;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+
+  .main-content > h1 {
+    font-size: clamp(2rem, 9.2vw, 2.6rem);
+  }
+
+  .illustration {
+    display: flex;
+    /* height: auto; */
+  }
+
+  .illustration img:nth-child(1) {
+    display: none;
+  }
+
+  .illustration img:nth-child(2) {
+    display: block;
+    /* height: 70%; */
+    max-height: 40rem;
+    width: 100%;
+    height: auto;
+  }
+}
