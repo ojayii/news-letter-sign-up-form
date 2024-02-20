@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ojayii/newsletter-sign-up-form/static/css/main.e792b82f.css",
-    "main.js": "/ojayii/newsletter-sign-up-form/static/js/main.d917f51b.js",
-    "static/js/592.7f72a991.chunk.js": "/ojayii/newsletter-sign-up-form/static/js/592.7f72a991.chunk.js",
-    "index.html": "/ojayii/newsletter-sign-up-form/index.html",
-    "main.e792b82f.css.map": "/ojayii/newsletter-sign-up-form/static/css/main.e792b82f.css.map",
-    "main.d917f51b.js.map": "/ojayii/newsletter-sign-up-form/static/js/main.d917f51b.js.map",
-    "592.7f72a991.chunk.js.map": "/ojayii/newsletter-sign-up-form/static/js/592.7f72a991.chunk.js.map"
+    "main.css": "/news-letter-sign-up-form/static/css/main.e792b82f.css",
+    "main.js": "/news-letter-sign-up-form/static/js/main.424778a8.js",
+    "static/js/592.7f72a991.chunk.js": "/news-letter-sign-up-form/static/js/592.7f72a991.chunk.js",
+    "index.html": "/news-letter-sign-up-form/index.html",
+    "main.e792b82f.css.map": "/news-letter-sign-up-form/static/css/main.e792b82f.css.map",
+    "main.424778a8.js.map": "/news-letter-sign-up-form/static/js/main.424778a8.js.map",
+    "592.7f72a991.chunk.js.map": "/news-letter-sign-up-form/static/js/592.7f72a991.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e792b82f.css",
-    "static/js/main.d917f51b.js"
+    "static/js/main.424778a8.js"
   ]
 }
